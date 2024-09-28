@@ -4,7 +4,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   output: 'export',
-  distDir: 'out',
+  distDir: 'public',  // Change this from 'out' to 'public'
 }
 
 module.exports = nextConfig
